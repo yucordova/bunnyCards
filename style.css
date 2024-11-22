@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+card-info{
+margin: 1rem 0;
+}
+
+.card-info h1{
+    font-size: 30px;
+   color: rgb(175, 151, 170);
+}
+
+.card-info p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.card{
+    background-color: black;
+    color: aliceblue;
+    width: 25rem;
+    padding: 2rem 3rem;
+    margin: 2.5rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.card button{
+    border: 1px solid white;
+    background-color: black;
+    color: beige;
+    cursor: pointer;
+    border-radius: 100vw;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.card button:hover{
+    border: 1px solid;
+    background-color: crimson;
+}
+.card-image-container{
+    width: 100%;
+}
+.card-image-container img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ECECEC;
+    color: #3d4341e1;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .redesSociales {
+    margin-top: 10px;
+}
+
+footer .redesSociales a {
+    margin: 0 10px;
+}
+
+footer .redesSociales img, .foto {
+    width: 30px;
+    transition: transform 0.3s; 
+    border-radius: 50%;
+}
+.foto {
+    width: 40px;
+} 
+
+footer .redesSociales img:hover {
+    transform: scale(1.2);
+}
